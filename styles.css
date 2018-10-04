@@ -1,0 +1,129 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-template-rows: 0.25fr 0.25fr;
+    /*grid-row: 1/ span 1; */
+}
+
+.wrapper .header_container{
+    grid-column:  1/span 2;
+    background-color:darkcyan;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 1em;
+    padding-bottom: 4em;
+}
+
+
+.items{
+    text-align: center;
+    border: 1px solid;
+    padding: 18px 4em;
+}
+
+
+.contact{
+    background: gainsboro;
+    padding-right: 15px;
+    padding-left:15px;
+    margin-right: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.wrapper img{
+    border-radius: 50%;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+
+.details{
+    padding-bottom: 50px;
+    border-bottom: 4px solid;
+    list-style-type: none;
+    margin: 0;
+}
+
+.detailsSocial{
+    padding-bottom: 50px;
+    list-style-type: none;
+}
+
+info{
+    display: flex;
+}
+
+.bio p{
+    box-sizing: border-box;
+    height: 200px;
+    width: 1000px;
+    padding: 10px;
+    border-bottom: solid;
+}
+
+.bio{
+    margin-right: 1em;
+    padding-bottom: 2em;
+    padding-right: 5em;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+
+li.phone {
+    background: url("./img/phone.png") no-repeat left top;
+    background-size: 5%;
+    padding-left: 20px;
+}
+
+li.email{
+    background: url("./img/email.png") no-repeat left top;
+    background-size: 5%;
+    padding-left: 20px; 
+}
+
+li.site{
+    background: url("./img/site.png") no-repeat left top;
+    background-size: 5%;
+    padding-left: 20px; 
+}
+
+li.fb{
+    background: url("./img/fb.png") no-repeat left top;
+    background-size: 5%;
+    padding-left: 20px; 
+}
+
+li.twitter{
+    background: url("./img/twitter.png") no-repeat left top;
+    background-size: 5%;
+    padding-left: 20px; 
+}
+
+li.linkedin{
+    background: url("./img/linkedin.png") no-repeat left top;
+    background-size: 5%;
+    padding-left: 20px; 
+}
+
+.workDet{
+    display: flex;
+    flex-direction: row;
+}
+
+.workxp .left-col{
+    width: 300px;
+}
+
+.workxp .right-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    width: 500px;
+}
